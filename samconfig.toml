@@ -1,0 +1,11 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "hyunjin-datadog-sam-vote-app"
+resolve_s3 = true
+s3_prefix = "hyunjin-datadog-sam-vote-app"
+region = "ap-northeast-2"
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "AppName=\"hyunjin-datadog-sam-vote-app\" ApiStageName=\"dev\"" 
+image_repositories = []
+confirm_changeset = false
+profile = "dd"
