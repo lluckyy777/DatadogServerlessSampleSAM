@@ -128,3 +128,4 @@ Next, you can use AWS Serverless Application Repository to deploy ready to use A
 # Datadog-Serverless-Survey-SampleApp-SAM
 # DatadogServerlessSampleSAM
 # DatadogServerlessSampleSAM
+# DatadogServerlessSampleSAM
